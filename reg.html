@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+ <html lang="en">
+        <head>
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+            <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+            <meta charset="UTF-8">
+            <title>Title</title>
+        </head>
+        <body>
+            <div class="container">
+                <form class="form-horizontal" action="/" role="form">
+                    <h2>Registration</h2>
+                    <div class="form-group">
+                        <label for="firstName" class="col-sm-3 control-label">Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-3 control-label">Email* </label>
+                        <div class="col-sm-9">
+                            <input type="email" id="email" placeholder="Email" class="form-control" name= "email">
+                        </div>
+                    </div>
+                     <div class="form-group">
+                        <label for="password" class="col-sm-3 control-label">Password*</label>
+                        <div class="col-sm-9">
+                            <input type="password" id="password" placeholder="Password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpassword" class="col-sm-3 control-label">Confirm Password*</label>
+                        <div class="col-sm-9">
+                            <input type="password" id="cpassword" placeholder="Password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthDate" class="col-sm-3 control-label">Date of Birth*</label>
+                        <div class="col-sm-9">
+                            <input type="date" id="birthDate" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
+                        <div class="col-sm-9">
+                            <input type="phoneNumber" id="phoneNumber" placeholder="Phone number" class="form-control">
+                            <span class="help-block">Your phone number won't be disclosed anywhere </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <label for="address" class="col-sm-3 control-label">Address* </label>
+                        <div class="col-sm-9">
+                            <input type="number" id="address" placeholder="Please Enter your city and pincode" class="form-control">
+                        </div>
+                    </div>
+                     <div class="form-group">
+                            <label for="weight" class="col-sm-3 control-label">Weight* </label>
+                        <div class="col-sm-9">
+                            <input type="number" id="weight" placeholder="Please write your weight in kilograms" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Marital status</label>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label class="radio-inline">
+                                        <input type="radio" id="Single" value="Single">Single
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /.form-group -->
+                    <div class="form-group">
+                        <label for="items" class="col-sm-3 control-label">Choose an Item*</label>
+                        <div class="col-sm-9">
+                            <select id="items">
+                                <option value="savings_Acc">Savings Account</option>
+                                <option value="sal_Acc">Salary Account</option>
+                            </select>
+                        </div>
+                    </div>
+                     <div class="form-group">
+                         <input type="checkbox" id="1" name="1" value="Bike">
+                         <label for="1"> 10000</label>
+                          <input type="checkbox" id="2" name="2" value="Car">
+                         <label for="2"> 15000</label><br>
+                         <input type="checkbox" id="3" name="3" value="Boat">
+                         <label for="3"> 25000</label><br><br>
+                    </div> <!-- /.form-group -->
+                    <div class="form-group">
+                        <div class="col-sm-9 col-sm-offset-3">
+                            <span class="help-block">*Required fields</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Register</button>
+                </form> <!-- /form -->
+            </div> <!-- ./container -->
+        </body>
+</html>
